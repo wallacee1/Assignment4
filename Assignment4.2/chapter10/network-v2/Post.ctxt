@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Post
+comment0.text=\n\ This\ class\ stores\ information\ about\ a\ news\ feed\ post\ in\ a\ \n\ social\ network.\ Posts\ can\ be\ stored\ and\ displayed.\ This\ class\n\ serves\ as\ a\ superclass\ for\ more\ specific\ post\ types.\n\ \n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 0.2\n
+comment1.params=author
+comment1.target=Post(java.lang.String)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Post.\n\ \n\ @param\ author\ \ \ \ The\ username\ of\ the\ author\ of\ this\ post.\n
+comment2.params=
+comment2.target=long\ getTimeStamp()
+comment2.text=\n\ Return\ the\ time\ of\ creation\ of\ this\ post.\n\ \n\ @return\ The\ post's\ creation\ time,\ as\ a\ system\ time\ value.\n
+comment3.params=
+comment3.target=java.lang.String\ getUsername()
+comment3.text=\n\ Return\ the\ username.\n\ \n\ @return\ The\ post\ username.\n
+comment4.params=
+comment4.target=void\ like()
+comment4.text=\n\ Record\ one\ more\ 'Like'\ indication\ from\ a\ user.\n
+comment5.params=
+comment5.target=void\ unlike()
+comment5.text=\n\ Remove\ likes.\n
+comment6.params=text
+comment6.target=void\ addComment(java.lang.String)
+comment6.text=\n\ Add\ a\ comment\n
+comment7.params=
+comment7.target=void\ display()
+comment8.params=time
+comment8.target=java.lang.String\ timeString(long)
+comment8.text=\n\ Create\ a\ string\ describing\ a\ time\ point\ in\ the\ past\ relative\ to\ current\n\ time,\ such\ as\ "1\ minute\ ago"\ or\ "10\ seconds\ ago".\n\ \n\ @param\ time\ The\ time\ value\ to\ convert\n\ @return\ A\ relative\ time\ string\ for\ the\ given\ time\n
+numComments=9
