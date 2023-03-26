@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\n\ An\ item\ that\ can\ be\ in\ a\ given\ room.\ It\ has\ a\ description\ and\ weight.\n\n\ @author\ Eric\ Wallace\n\ @version\ 1\n
+comment1.params=description\ weight\ name
+comment1.target=Item(java.lang.String,\ int,\ java.lang.String)
+comment1.text=\n\ Constructor\ for\ Item\n
+comment2.params=
+comment2.target=java.lang.String\ getItemInfo()
+comment2.text=\n\ \ \n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\n\ Return\ the\ description\n\ @return\ description\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\n\ Return\ the\ weight\n\ \n
+numComments=5
